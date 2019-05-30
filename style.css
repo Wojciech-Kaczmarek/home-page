@@ -1,7 +1,27 @@
-main {
+#main {
     background-color: #fefefe;
+}
+
+.header {
+    color: #1440aa;
 }
 
 h2 {
     color: #1460aa;
 }
+
+h3 {
+    color: #1461aa;
+}
+
+section {
+    background-color: rgb(223, 166, 60);
+}
+
+[class*='container']:not([class*='container__']) {
+    color: rgb(25, 131, 11); 
+  }
+  
+  .container__title {
+    color: rgb(48, 102, 163); 
+  }
