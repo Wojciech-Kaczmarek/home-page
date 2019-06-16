@@ -19,9 +19,9 @@ section {
 }
 
 [class*='container']:not([class*='container__']) {
-    color: rgb(25, 131, 11); 
-  }
-  
-  .container__title {
-    color: rgb(48, 102, 163); 
-  }
+    color: rgb(25, 131, 11);
+}
+
+.container__title {
+    color: rgb(48, 102, 163);
+}

@@ -10,7 +10,7 @@
 
 // app.classList.add("super");
 
- console.log(dupa);
+//console.log(dupa);
 
 
 // dupa
