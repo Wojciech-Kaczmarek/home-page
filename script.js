@@ -1,7 +1,17 @@
+//alert ('kiss me hard, like really.. really hard');
 
+console.log('kiss me');
 
+const name = 'Sephiroth Craft';
+const age = 31;
 
+console.log(name);
+console.log(age);
 
+console.log(`my name is ${name} and my age is ${age}`);
+//console.log('my name is '+name+' and my age is '+age+'');
+
+// string = tekst ' ; number ; bigint => 2*53 ; boolean = true false ; null ; undefined ; symbol
 
 
 
