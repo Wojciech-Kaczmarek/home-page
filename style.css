@@ -1,12 +1,12 @@
 #main {
-    background-color: #fefefe;
+    background-color: #fefefe !important;
 }
 
-.header {
+.mainHeader {
     color: #1440aa;
 }
 
-h2 {
+.sectionHeader {
     color: #1460aa;
 }
 
@@ -14,9 +14,6 @@ h3 {
     color: #1461aa;
 }
 
-section {
-    background-color: rgb(223, 166, 60);
-}
 
 [class*='container']:not([class*='container__']) {
     color: rgb(25, 131, 11);
