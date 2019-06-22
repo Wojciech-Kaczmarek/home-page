@@ -14,10 +14,10 @@ h3 {
     color: #1461aa;
 }
 
-
-[class*='container']:not([class*='container__']) {
-    color: rgb(25, 131, 11);
-}
+/* oznaczenie do zapamietania */
+/* [class*='container']:not([class*='container__']) { */
+    /* color: rgb(25, 131, 11); */
+/* } */
 
 .container__title {
     color: rgb(48, 102, 163);
