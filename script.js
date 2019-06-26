@@ -8,6 +8,8 @@ const age = 31;
 console.log(name);
 console.log(age);
 
+console.log(`hey, my name is ${name} and i hope you are ready to see my new, beginer project`);
+
 console.log(`my name is ${name} and my age is ${age}`);
 //console.log('my name is '+name+' and my age is '+age+'');
 
