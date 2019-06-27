@@ -2,16 +2,24 @@
     background-color: #fefefe !important;
 }
 
-.mainHeader {
-    color: #1440aa;
+.heading {
+    color: white;
+}
+.header {
+    background-color: rgb(84, 72, 116); 
+    color: rgb(255, 255, 255);
+}
+.paragraph {
+    background-color: rgb(140, 121, 192);
 }
 
 .sectionHeader {
     color: #1460aa;
 }
 
-h3 {
-    color: #1461aa;
+.footer {
+    background-color: rgb(84, 72, 116); 
+    color: rgb(255, 255, 255);
 }
 
 /* oznaczenie do zapamietania */
