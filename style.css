@@ -31,11 +31,11 @@
     color: rgb(255, 255, 255);
 }
 
-.sectionHeader {
+.section-header {
     color: #9d82c9;
 }
 .article {
-   
+   background-color: black;
 }
 
 .footer {
