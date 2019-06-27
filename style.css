@@ -1,5 +1,10 @@
-#main {
-    background-color: #fefefe !important;
+.body {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.main {
+    background-color: rgb(84, 72, 116); 
+    color: rgb(255, 255, 255);
 }
 
 .heading {
@@ -13,8 +18,13 @@
     background-color: rgb(140, 121, 192);
 }
 
+.section {
+    background-color: rgb(84, 72, 116); 
+    color: rgb(255, 255, 255);
+}
+
 .sectionHeader {
-    color: #1460aa;
+    color: #9d82c9;
 }
 
 .footer {
@@ -26,7 +36,3 @@
 /* [class*='container']:not([class*='container__']) { */
     /* color: rgb(25, 131, 11); */
 /* } */
-
-.container__title {
-    color: rgb(48, 102, 163);
-}
