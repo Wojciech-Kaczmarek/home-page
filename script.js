@@ -3,7 +3,7 @@
 console.log('kiss me');
 
 const name = 'Sephiroth Craft';
-const age = 31;
+const age = 1;
 
 console.log(name);
 console.log(age);
