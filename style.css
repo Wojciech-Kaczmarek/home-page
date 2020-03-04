@@ -41,6 +41,12 @@
 .footer {
     background-color: rgb(84, 72, 116); 
     color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+
 }
 
 .link {

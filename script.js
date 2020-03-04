@@ -2,7 +2,7 @@
 
 console.log('kiss me');
 
-const name = 'Sephiroth Craft';
+const name = 'kiss hell';
 const age = 1;
 
 console.log(name);
