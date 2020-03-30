@@ -73,6 +73,11 @@ h1 {
     display: inline;
     position: fixed;
 }
+
+.bh {
+    width: 350px;
+    height: 350px;
+}
 /* oznaczenie do zapamietania */
 /* [class*='container']:not([class*='container__']) { */
     /* color: rgb(25, 131, 11); */
