@@ -2,7 +2,18 @@
 var name = "kiss";
 var place = "hell";
 
-console.log("you are "+name+" and you are from "+place+"")
+console.log("you are "+name+" and you are from "+place)
+
+console.log(place+" "+name)
+
+// string
+
+console.log("bla ${name} bla")
+console.log('bla ${name} bla')
+console.log(`bla ${name} bla`)
+
+alert(name + " "+"is from" + " " + place)
+
 
 
 
