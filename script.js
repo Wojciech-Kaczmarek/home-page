@@ -1,12 +1,26 @@
-
-
-/*var tweet = prompt("Compose your tweet:");
+/* 
+var tweet = prompt("Compose your tweet:");
 var tweetCount = tweet.length;
 alert("You have written " + tweetCount + " characters, you have " + (260 - tweetCount) + " characters remaning.")
 */
 
+/*
 var tweet = prompt("Compose your tweet:");
-alert("You have written " + tweet.length + " characters, you have " + (260 - tweet.length) + " characters remaning.")
+alert("You have written " + tweet.length + " characters, you have " + (140 - tweet.length) + " characters remaning.")
+*/
+
+/*
+var tweet = prompt("Compose your tweet:");
+var TweetUnder140 = tweet.slice(0,140);
+alert(TweetUnder140);
+*/
+
+/*
+var tweet = prompt("Compose your tweet:");
+alert(tweet.slice(0,140));
+*/
+
+alert(prompt("Compose your tweet:").slice(0,140));
 
 
 
