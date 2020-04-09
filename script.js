@@ -21,7 +21,7 @@ function helloAlert() {
 
 // string = tekst ' ; number ; bigint => 2*53 ; boolean = true false ; null ; undefined ; symbol
 
-function getMilk(battle) {   
+function getMilk(money) {
     console.log("leaveHouse");
     console.log("moveRight");
     console.log("moveRight");
@@ -31,7 +31,10 @@ function getMilk(battle) {
     console.log("moveUp");
     console.log("moveRight");
     console.log("moveRight");
-    console.log("buy " + battle + " buttle of milk");
+
+    var numberOfBottles = Math.floor(money / 1.5);
+    console.log("buy " + numberOfBottles + " buttle of milk");
+
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("moveDown");
@@ -41,7 +44,12 @@ function getMilk(battle) {
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("enterHouse");
-  }
-  
-  getMilk(5);
-  
+
+    return money % 1.5;
+
+}
+
+function getBeer(euro) {
+    var beerCost = (euro * 0.99);
+    console.log("you need to have " + beerCost + " euro for it");
+}
