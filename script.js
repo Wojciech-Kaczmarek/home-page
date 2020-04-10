@@ -53,3 +53,12 @@ function getBeer(euro) {
     var beerCost = (euro * 0.99);
     console.log("you need to have " + beerCost + " euro for it");
 }
+
+function lifeInWeeks(age) {
+    var restLife = 90 - age;
+    var days = restLife * 365;
+    var weeks = restLife * 52;
+    var months = restLife * 12;
+
+    console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
+}
