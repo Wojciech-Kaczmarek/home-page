@@ -17,11 +17,18 @@ function helloAlert() {
     alert("hello " + capitalizedName);
 }
 
-//helloAlert();
+function lifeInWeeks(age) {
+    var restLife = 90 - age;
+    var days = restLife * 365;
+    var weeks = restLife * 52;
+    var months = restLife * 12;
+
+    console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
+}
 
 // string = tekst ' ; number ; bigint => 2*53 ; boolean = true false ; null ; undefined ; symbol
 
-function getMilk(money) {
+function getMilk(money, cost) {
     console.log("leaveHouse");
     console.log("moveRight");
     console.log("moveRight");
@@ -32,8 +39,7 @@ function getMilk(money) {
     console.log("moveRight");
     console.log("moveRight");
 
-    var numberOfBottles = Math.floor(money / 1.5);
-    console.log("buy " + numberOfBottles + " buttle of milk");
+    console.log("buy " + calcBattles(money, cost) + " bottles of milk")
 
     console.log("moveLeft");
     console.log("moveLeft");
@@ -45,20 +51,23 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("enterHouse");
 
-    return money % 1.5;
-
+    return calcChange(money, cost);
 }
+
+function calcBattles(startingMoney, costPerBottle) {
+    var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+    return numberOfBottles;
+}
+
+function calcChange(startingAmount, costPerBottle) {
+    var change = startingAmount % costPerBottle;
+    return change;
+}
+
+console.log("Hello master, hire is your " + getMilk(11,1.5) + " change.")
+    
 
 function getBeer(euro) {
-    var beerCost = (euro * 0.99);
-    console.log("you need to have " + beerCost + " euro for it");
-}
-
-function lifeInWeeks(age) {
-    var restLife = 90 - age;
-    var days = restLife * 365;
-    var weeks = restLife * 52;
-    var months = restLife * 12;
-
-    console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
+    var beerCost = Math.floor(euro / 0.99);
+    console.log("you can have " + beerCost + " for it");
 }
