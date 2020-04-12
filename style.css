@@ -4,6 +4,10 @@ h1 {
     color: #f39c12;
 }
 
+a:hover {
+    color: #f39c12;
+}
+
 /***************************CLASS SELECTOR***************************/
 
 .body {
@@ -79,6 +83,7 @@ h1 {
     width: 350px;
     height: 350px;
 }
+
 /* oznaczenie do zapamietania */
 /* [class*='container']:not([class*='container__']) { */
     /* color: rgb(25, 131, 11); */
