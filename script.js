@@ -71,3 +71,10 @@ function getBeer(euro) {
     var beerCost = Math.floor(euro / 0.99);
     console.log("you can have " + beerCost + " for it");
 }
+
+function bmiCalculator(weight, height) {
+    var bmi = weight / (height * height);
+    return Math.round(bmi);
+}
+
+console.log(bmiCalculator);
