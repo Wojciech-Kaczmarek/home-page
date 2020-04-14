@@ -77,4 +77,3 @@ function bmiCalculator(weight, height) {
     return Math.round(bmi);
 }
 
-console.log(bmiCalculator);
