@@ -64,8 +64,8 @@ function calcChange(startingAmount, costPerBottle) {
     return change;
 }
 
-console.log("Hello master, hire is your " + getMilk(11,1.5) + " change.")
-    
+console.log("Hello master, hire is your " + getMilk(11, 1.5) + " change.")
+
 
 function getBeer(euro) {
     var beerCost = Math.floor(euro / 0.99);
@@ -76,12 +76,13 @@ function bmiCalculator(weight, height) {
     var bmi = weight / (height * height);
     return Math.round(bmi);
 }
-function loveCalculator() {
-prompt("What is your name?");
-prompt("What is their name?");
 
-var loveScore = Math.random();
-loveScore = loveScore * 100;
-loveScore = Math.floor(loveScore) + 1;
-console.log("Your love score is " + loveScore + "%");
+function loveCalculator() {
+    prompt("What is your name?");
+    prompt("What is their name?");
+
+    var loveScore = Math.random();
+    loveScore = loveScore * 100;
+    loveScore = Math.floor(loveScore) + 1;
+    console.log("Your love score is " + loveScore + "%");
 }
