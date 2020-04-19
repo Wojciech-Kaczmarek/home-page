@@ -64,7 +64,7 @@ function calcChange(startingAmount, costPerBottle) {
     return change;
 }
 
-console.log("Hello master, hire is your " + getMilk(11, 1.5) + " change.")
+//console.log("Hello master, hire is your " + getMilk(11, 1.5) + " change.")
 
 
 function getBeer(euro) {
@@ -84,5 +84,10 @@ function loveCalculator() {
     var loveScore = Math.random();
     loveScore = loveScore * 100;
     loveScore = Math.floor(loveScore) + 1;
-    console.log("Your love score is " + loveScore + "%");
+
+    if (loveScore > 70) {
+        alert("Your love score is " + loveScore + "% You love each other like Kanye love Kanye");
+    } else {
+        alert("Your love score is " + loveScore + "%");
+    }
 }
