@@ -9,10 +9,10 @@ function helloAlert() {
     var name = prompt("what is your name:");
 
     var firstChar = name.slice(0, 1);
-    var upperCasefirstChar = firstChar.toUpperCase();
+    var upperCaseFirstChar = firstChar.toUpperCase();
     var restOfName = name.slice(1, name.lenth);
     restOfName = restOfName.toLowerCase();
-    var capitalizedName = upperCasefirstChar + restOfName;
+    var capitalizedName = upperCaseFirstChar + restOfName;
 
     alert("hello " + capitalizedName);
 }
@@ -72,10 +72,16 @@ function getBeer(euro) {
     console.log("you can have " + beerCost + " for it");
 }
 
-function bmiCalculator(weight, height) {
+function bmiCalculator (weight, height) {
     var bmi = weight / (height * height);
-    return Math.round(bmi);
-}
+    
+    if (bmi < 18.5) {
+        return ("Your BMI is " + Math.round(bmi) + ", so you are underweight." );
+    } if (bmi >= 18.5 && bmi <= 24.9) {
+        return ("Your BMI is " + Math.round(bmi) + ", so you have a normal weight." );
+    } if (bmi > 24.9) {
+        return ("Your BMI is " + Math.round(bmi) + ", so you are overweight." );
+    }}
 
 function loveCalculator() {
     prompt("What is your name?");
