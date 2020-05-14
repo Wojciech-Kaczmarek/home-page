@@ -57,6 +57,11 @@
     color: #f39c12;
 }
 
+.main__header-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
 
 .paragraph {
     background-color: #34495e;
