@@ -1,3 +1,19 @@
+
+.body {
+    background-color: #2c3e50 !important;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    background-color: #34495e;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
 /*************************** Header Navigation Bar ***************************/
 
 .header {
@@ -28,13 +44,9 @@
 
 /*************************** Main Header ***************************/
 
-.main__header {
+.main__header {}
 
-}
-
-.main__header-heading {
-
-}
+.main__header-heading {}
 
 .main__header-description {
     color: #f39c12;
@@ -44,26 +56,29 @@
     width: 100px;
     height: 100px;
     float: left;
+    padding: 5px 5px;
 }
+
+/*************************** Section ***************************/
+
+.section {
+    background-color: #2c3e50;
+}
+
+.section__header {
+    color: #f39c12;
+}
+
+.section__header-description {
+    background-color: #34495e;
+    color: rgb(0, 0, 0);
+    padding: 3px 4px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
 
 /***************************CLASS SELECTOR***************************/
-
-.body {
-    background-color: #2c3e50 !important;
-    margin: auto;
-    box-sizing: border-box;
-
-}
-
-.main {
-    background-color: #34495e;
-    color: rgb(255, 255, 255);
-    width: 100%;
-    max-width: 1100px;
-    margin: auto auto;
-    padding-top: 30px;
-    text-align: center;
-}
 
 .link {
     color: #f39c12;
@@ -74,30 +89,7 @@
     color: #f1c40f;
 }
 
-.heading {
-    color: #f39c12;
-}
 
-.paragraph {
-    background-color: #34495e;
-    color: rgb(0, 0, 0);
-    padding: 3px 4px;
-    margin: auto;
-    border-bottom: 1px solid black;
-}
-
-.section {
-    background-color: #2c3e50;
-    color: rgb(255, 255, 255);
-}
-
-.section-header {
-    color: #000000;
-}
-
-.article {
-    background-color: black;
-}
 
 .footer {
     background-color: #2c3e50;
@@ -106,18 +98,6 @@
     text-align: right;
 }
 
-.bh {
-    width: 350px;
-    height: 350px;
-}
-
-h1 {
-    color: #f39c12;
-}
-
-a:hover {
-    color: #f39c12;
-}
 
 
 /* oznaczenie do zapamietania */
