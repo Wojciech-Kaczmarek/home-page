@@ -69,15 +69,16 @@
 }
 
 .section__header {
-    color: #f39c12;
+    color: black;
 }
 
 .section__header-description {
     background-color: #34495e;
-    color: rgb(0, 0, 0);
+    color:#f39c12;
     padding: 3px 4px;
     margin: auto;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 /***************************CLASS SELECTOR***************************/
