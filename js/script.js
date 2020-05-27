@@ -1,3 +1,10 @@
+console.time("answer time");
+
+
+
+
+
+
 const heading = document.querySelector(".main__header-js");
 heading.innerHTML = "Black Hole";
 
@@ -8,6 +15,13 @@ function calculate(myNumber) {
     myNumber = myNumber * 7;
     return myNumber
 }
+
+
+console.timeLog("answer time");
+
+
+
+
 
 function createContent(querySelectorContent, content) {
     const element = document.querySelector(querySelectorContent);
@@ -22,3 +36,17 @@ const a = (querySelectorContent, content) => {
 }
 
 a('.section__header--sjs', 'nie sobota');
+
+console.log(console);
+
+
+
+console.timeEnd("answer time");
+
+/*
+ console.time("answer time");
+alert("Click to continue");
+console.timeLog("answer time");
+alert("Do a bunch of other stuff...");
+console.timeEnd("answer time");
+*/
