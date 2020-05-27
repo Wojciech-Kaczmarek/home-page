@@ -1,4 +1,3 @@
-
 const heading = document.querySelector(".main__header-js");
 heading.innerHTML = "Black Hole";
 
@@ -9,3 +8,10 @@ function calculate(myNumber) {
     myNumber = myNumber * 7;
     return myNumber
 }
+
+function createContent(querySelectorContent, content) {
+    const element = document.querySelector(querySelectorContent);
+    element.innerHTML = content;
+}
+
+createContent('.section__header--js', 'nie piatek');
