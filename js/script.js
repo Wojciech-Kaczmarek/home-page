@@ -15,3 +15,10 @@ function createContent(querySelectorContent, content) {
 }
 
 createContent('.section__header--js', 'nie piatek');
+
+const a = (querySelectorContent, content) => {
+    const element = document.querySelector(querySelectorContent);
+    element.innerHTML = content;
+}
+
+a('.section__header--sjs', 'nie sobota');
