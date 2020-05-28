@@ -20,7 +20,27 @@ function calculate(myNumber) {
 console.timeLog("answer time");
 
 
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed !!!`)
+    },
+    isOperating: true,
+    levels: 357,
+    name: 'Death Star',
+    population: 10000,
+    isLightOn: true,
+    comander: {
+        name: 'Darth Vader',
+        age: 44,
+    }
+}
 
+const myPropety = 'name';
+
+const showMeProperty = (myPropety) => {
+    console.log(`Twoja wlasnosc ${myPropety} to: ${deathStar[myPropety]}`);
+}
 
 
 function createContent(querySelectorContent, content) {
@@ -38,10 +58,13 @@ const a = (querySelectorContent, content) => {
 a('.section__header--sjs', 'nie sobota');
 
 console.log(console);
-
-
+console.log(deathStar);
+deathStar.fire('kiss');
+showMeProperty('isOperating');
 
 console.timeEnd("answer time");
+
+
 
 /*
  console.time("answer time");
