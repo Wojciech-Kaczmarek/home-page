@@ -84,12 +84,13 @@
 /***************************CLASS SELECTOR***************************/
 
 .link {
-    color: #f39c12;
+    color: #f1c40f;
     display: inline-block;
+    text-decoration: none;
 }
 
 .link:hover {
-    color: #f1c40f;
+    color: black;
 }
 
 /*************************** Footer***************************/
