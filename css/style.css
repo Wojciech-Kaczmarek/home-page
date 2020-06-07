@@ -93,6 +93,10 @@ html {
 
 /***************************CLASS SELECTOR***************************/
 
+.bgimg {
+    background-image: url('../img/black_hole.jpg');
+}
+
 .link {
     color: #f1c40f;
     display: inline-block;
