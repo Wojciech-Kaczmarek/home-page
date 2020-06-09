@@ -148,11 +148,32 @@ html {
     width: 624px;
     border-radius: 16px;
     margin: 16px;
+    padding: 32px;
 }
 
 .s-avatar {
     width: 148px;
     height: 148px;
+}
+
+.s-person {
+
+}
+
+.s-person__info {
+
+}
+
+.s-person__name {
+
+}
+
+.s-person__position {
+
+}
+
+.s-person__discription {
+    
 }
 
 /* oznaczenie do zapamietania */
