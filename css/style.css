@@ -141,6 +141,7 @@ html {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .s-main {
@@ -154,26 +155,51 @@ html {
 .s-avatar {
     width: 148px;
     height: 148px;
+    margin: 0 32px 32px 0;
 }
 
 .s-person {
-
+    display: flex;
+    align-items: flex-start;
 }
 
 .s-person__info {
-
+    margin-bottom: 24px;
 }
 
 .s-person__name {
-
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
 }
 
 .s-person__position {
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+    color: #545454;
 
 }
 
-.s-person__discription {
-    
+.s-person__description {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.s-person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__link {
+    color: #e20613;
+    text-decoration: none;
+}
+
+.special {
+    color: #ed6d05;
+    font-weight: normal;
 }
 
 /* oznaczenie do zapamietania */
