@@ -3,6 +3,10 @@ console.time("answer time");
 
 
 
+const greet = (age, name) => {
+
+    console.log(`witaj ${name} masz ${age}`);
+}
 
 
 const heading = document.querySelector(".main__header-js");
@@ -56,6 +60,8 @@ const a = (querySelectorContent, content) => {
 }
 
 a('.section__header--sjs', 'nie sobota');
+
+
 
 console.log(console);
 console.log(deathStar);
