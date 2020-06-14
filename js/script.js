@@ -62,10 +62,15 @@ const a = (querySelectorContent, content) => {
 
 a('.section__header--sjs', 'nie sobota');
 
-if (deathStar.age != deathStar.comander.age) {
-    console.log('dupa');
+function whoIsOlder() {
+    if (deathStar.age > deathStar.comander.age) {
+        console.log('GŚ jest starsza');
+    } else if (deathStar.age === deathStar.comander.age) {
+        console.log('GŚ i V maja tyle samo lat');
+    } else {
+        console.log('Vader jest starszy');
+    }
 }
-
 
 console.log(console);
 console.log(deathStar);
