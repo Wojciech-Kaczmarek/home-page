@@ -34,6 +34,7 @@ const deathStar = {
     name: 'Death Star',
     population: 10000,
     isLightOn: true,
+    age: 1,
     comander: {
         name: 'Darth Vader',
         age: 44,
@@ -61,6 +62,9 @@ const a = (querySelectorContent, content) => {
 
 a('.section__header--sjs', 'nie sobota');
 
+if (deathStar.age != deathStar.comander.age) {
+    console.log('dupa');
+}
 
 
 console.log(console);
