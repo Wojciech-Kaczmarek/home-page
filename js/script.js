@@ -62,6 +62,10 @@ const a = (querySelectorContent, content) => {
 
 a('.section__header--sjs', 'nie sobota');
 
+const myRange = document.querySelector('.range--js');
+/* myRange.value */
+
+
 function whoIsOlder() {
     if (deathStar.age > deathStar.comander.age) {
         console.log('GŚ jest starsza');
@@ -75,6 +79,7 @@ function whoIsOlder() {
 console.log(console);
 console.log(deathStar);
 deathStar.fire('kiss');
+
 showMeProperty('isOperating');
 
 console.timeEnd("answer time");

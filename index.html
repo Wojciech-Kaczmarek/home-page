@@ -89,13 +89,41 @@
 
 				<p class="section__header-description">
 					<label for="firstName">First Name:</label>
-					<input id="firstName" type="text" name="firstName" placeholder="Enter Your Name">
+					<input id="firstName" class="form__item" type="text" name="firstName" placeholder="Enter Your Name">
 				</p>
 
 				<p class="section__header-description">
 					<label>Last Name:
-						<input id="lastName" type="text" name="lastName" placeholder="Enter Your Last Name"
-							value="Holmes">
+						<input id="lastName" class="form__item" type="text" name="lastName"
+							placeholder="Enter Your Last Name" value="Holmes">
+					</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>Phone Number:
+						<input id="phoneNumber" class="form__item" type="tel" name="phoneNumber"
+							placeholder="Enter Your Phone Number" value="">
+					</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>Favorite Number:
+						<input id="favoriteNumber" class="form__item" type="number" name="favoriteNumber"
+							placeholder="Enter Your Favorite Number" value="">
+					</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>E-mail:
+						<input id="email" class="form__item" type="email" name="email" placeholder="Enter Your Email"
+							value="">
+					</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>Range:
+						<input id="range" class="form__item range--js" type="range" name="range" min="0" max="120"
+							step="10" value="0">
 					</label>
 				</p>
 
@@ -103,35 +131,50 @@
 					<legend>Address</legend>
 					<p class="section__header-description">
 						<label>Street Name:
-							<input id="streetName" type="text" name="streetName" placeholder="Enter Your Street Name"
-								value="Baker Street 221B">
+							<input id="streetName" class="form__item" type="text" name="streetName"
+								placeholder="Enter Your Street Name" value="Baker Street 221B">
 						</label>
 					</p>
 
 					<p class="section__header-description">
 						<label>City:
-							<input id="city" type="text" name="city" placeholder="Enter Your City Name">
+							<input id="city" class="form__item" type="text" name="city"
+								placeholder="Enter Your City Name">
 						</label>
 					</p>
-
 				</fieldset>
 
 				<fieldset>
 					<legend>something</legend>
-					<p>
-						<label for=""><input name="something" type="radio" value="big">Big.</label>
+					<p class="section__header-description">
+						<label for=""><input class="form__item" name="something" type="radio" value="big">Big.</label>
 					</p>
-					<p>
-						<label for=""><input name="something" type="radio" value="medium">Medium.</label>
+					<p class="section__header-description">
+						<label for=""><input class="form__item" name="something" type="radio"
+								value="medium">Medium.</label>
 					</p>
-					<p>
-						<label for=""><input name="something" type="radio" value="small" checked>Small.</label>
+					<p class="section__header-description">
+						<label for=""><input class="form__item" name="something" type="radio" value="small"
+								checked>Small.</label>
 					</p>
-
 				</fieldset>
 
-				<p>
-					<label for=""><input name="agreement" type="checkbox" value="agree">I agree.</label>
+				<p class="section__header-description">
+					<label for=""><input class="form__item" name="agreement" type="checkbox" value="agree">I
+						agree.</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>Avatar:
+						<input id="avatar" class="form__item" type="file" name="avatar" placeholder="Avatar" value="">
+					</label>
+				</p>
+
+				<p class="section__header-description">
+					<label>Password:
+						<input id="password" class="form__item" type="password" name="password" placeholder="password"
+							value="">
+					</label>
 				</p>
 
 			</form>
