@@ -95,7 +95,7 @@
 				<p class="section__header-description">
 					<label>Last Name:
 						<input id="lastName" class="form__item" type="text" name="lastName"
-							placeholder="Enter Your Last Name" value="Holmes">
+							placeholder="Enter Your Last Name" value="Holmes" required>
 					</label>
 				</p>
 
@@ -140,6 +140,13 @@
 						<label>City:
 							<input id="city" class="form__item" type="text" name="city"
 								placeholder="Enter Your City Name">
+						</label>
+					</p>
+
+					<p class="section__header-description">
+						<label>Postal Code:
+							<input id="postalCode" class="form__item" name="postalCode"
+								pattern="[0-9]{2}-[0-9]{3}">
 						</label>
 					</p>
 				</fieldset>
