@@ -10,21 +10,39 @@
 </head>
 
 <body id="body">
-        <header class="header">
-                <ul class="menu navigation">
-                    <li><a class="link" href="../index.html">main page</a></li>
-                    <li><a class="link" href="monday.html">poniedzialek</a></li>
-                    <li><a class="link" href="tuesday.html">wtorek</a></li>
-                    <li><a class="link" href="wednesday.html">sroda</a></li>
-                    <li><a class="link" href="thoursday.html">czwartek</a></li>
-                    <li><a class="link" href="friday.html">piatek</a></li>
-                    <li><a class="link" href="saturday.html">sobota</a></li>
-                    <li><a class="link" href="sunday.html">niedziela</a></li>
-                    <li><a class="link" href="foundation.html">foundation</a></li>
-                </ul>
-            </header>
+    <header class="header">
+        <ul class="menu navigation">
+            <li><a class="link" href="../index.html">main page</a></li>
+        </ul>
+    </header>
     <main>
-       
+        <form method="POST" action="http://dev.cotenfrontend.pl" target="_blank">
+
+            <fieldset>
+                <legend>zadanie domowe</legend>
+
+                <p>
+                    <label for="">Name:
+
+                        <input id="name" name="name" placeholder="enter your name" type="text">
+
+                    </label>
+                </p>
+
+                <p>
+                    <label for="">Riddle:
+
+                        <input id="riddle" name="riddle" placeholder="enter riddle" type="text">
+
+                    </label>
+                </p>
+
+                <p><input type="submit" name="submit" id="submit" value="send"></p>
+
+            </fieldset>
+
+        </form>
+
     </main>
 
     <footer>
