@@ -1,7 +1,16 @@
 console.time("answer time");
 
 
+/* navigation */
 
+const menu = document.querySelector('.menu--js');
+
+menu.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
+
+/* navigation */
 
 const greet = (age, name) => {
 
@@ -84,14 +93,6 @@ showMeProperty('isOperating');
 
 console.timeEnd("answer time");
 
-/* navigation */
-
-const menu = document.querySelector('.menu--js');
-
-menu.addEventListener('click', () => {
-    const nav = document.querySelector('.navigation--js');
-    nav.classList.toggle('navigation--open');
-})
 
 /*
  console.time("answer time");
