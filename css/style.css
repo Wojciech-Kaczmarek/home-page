@@ -41,6 +41,9 @@ html {
 
 .navigation--link {
     display: block;
+    color: #f1c40f;
+    text-decoration: none;
+
 }
 
 .menu {
@@ -213,7 +216,7 @@ html {
 
     .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 16px;
     }
 
@@ -222,6 +225,16 @@ html {
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
     }
 
 }
