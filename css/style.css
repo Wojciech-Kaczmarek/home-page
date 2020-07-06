@@ -85,6 +85,24 @@ html {
     color: black;
 }
 
+.section__header::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #f39c12;
+    border-radius: 50%;
+}
+
+.section__header::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #f39c12;
+    border-radius: 50%;
+}
+
 .section__header-description {
     background-color: #34495e;
     color: #f39c12;
