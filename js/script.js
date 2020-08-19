@@ -50,6 +50,12 @@ const deathStar = {
     }
 }
 
+const admin = {
+    alwaysOnDuty: true,
+    name: 'Sephiroth',
+    
+}
+
 const myPropety = 'name';
 
 const showMeProperty = (myPropety) => {
